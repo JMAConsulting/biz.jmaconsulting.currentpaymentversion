@@ -1,27 +1,27 @@
 <?xml version="1.0"?>
 <extension key="biz.jmaconsulting.currentpaymentversion" type="module">
   <file>currentpaymentversion</file>
-  <name>FIXME</name>
-  <description>FIXME</description>
+  <name>Show current version of payments</name>
+  <description>Show only the current state of each payment transaction. Hide payment reversals and previous versions of each payment transaction.</description>
   <license>AGPL-3.0</license>
   <maintainer>
     <author>Monish Deb</author>
-    <email>deb.monish@gmail.com</email>
+    <email>everyone@jmaconsulting.biz</email>
   </maintainer>
   <urls>
-    <url desc="Main Extension Page">http://FIXME</url>
-    <url desc="Documentation">http://FIXME</url>
-    <url desc="Support">http://FIXME</url>
+    <url desc="Main Extension Page">https://github.com/JMAConsulting/biz.jmaconsulting.currentpaymentversion</url>
+    <url desc="Documentation">https://github.com/JMAConsulting/biz.jmaconsulting.currentpaymentversion/blob/master/README.md</url>
+    <url desc="Support">https://github.com/JMAConsulting/biz.jmaconsulting.currentpaymentversion/issues</url>
     <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
   </urls>
   <releaseDate>2018-10-17</releaseDate>
   <version>1.0</version>
-  <develStage>alpha</develStage>
+  <develStage>stable</develStage>
   <compatibility>
-    <ver>4.7</ver>
+    <ver>5.7</ver>
   </compatibility>
-  <comments>This is a new, undeveloped module</comments>
+  <comments>Show only the current state of each payment transaction. Hide payment reversals and previous versions of each payment transaction.</comments>
   <civix>
-    <namespace>CRM/Currentpaymentversion</namespace>
+    <namespace>CRM/CurrentPaymentVersion</namespace>
   </civix>
 </extension>
