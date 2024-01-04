@@ -23,5 +23,9 @@
   <comments>Show only the current state of each payment transaction. Hide payment reversals and previous versions of each payment transaction.</comments>
   <civix>
     <namespace>CRM/CurrentPaymentVersion</namespace>
+    <format>23.02.1</format>
   </civix>
+  <classloader>
+    <psr4 prefix="Civi\" path="Civi"/>
+  </classloader>
 </extension>
